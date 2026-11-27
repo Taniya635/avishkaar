@@ -1,0 +1,1 @@
+"""Mock application form data."""

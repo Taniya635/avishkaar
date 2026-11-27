@@ -1,0 +1,19 @@
+
+/* AI Advisor Widget */
+
+/* Chat window opening animation */
+@keyframes aiAdvisorEnter {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.ai-advisor-enter {
+  animation: aiAdvisorEnter 0.2s ease-out;
+}
